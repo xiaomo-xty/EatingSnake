@@ -39,7 +39,7 @@ typedef enum DIR
 //窗口
 class GameWin {
 public:
-	//传入绘制窗口的宽，高
+	//传入绘制窗口的宽，高,背景颜色，边框颜色
 	GameWin(int WinWidth, int WinHeigth,COLORREF BackColor,int outline_color);
 	void init();
 	void GameOver(const wchar_t* tip);
